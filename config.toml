@@ -2,7 +2,8 @@
 base_url = "https://blog.byteb.us"
 
 theme = "lightspeed"
-title = "bytebus blog"
+title = "bytebus"
+description ="Notebook on code & software design"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
