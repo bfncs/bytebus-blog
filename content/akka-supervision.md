@@ -15,6 +15,8 @@ To be able to play around and understand supervision, let's quickly create a tes
 2) a **parent actor**, that acts as user guardian and doesn't do anything but start
 3) a **child actor**, that behaves suicidal by sending itself a message causing an unhandled RuntimeException one second after starting.
 
+Sounds way more dramatic than it is, so let's look at the code:
+
 ```java
 public final class App {
 
