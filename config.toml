@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.byteb.us"
+base_url = "https://byteb.us"
 
 theme = "lightspeed"
 title = "bytebus"
