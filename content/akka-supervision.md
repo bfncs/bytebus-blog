@@ -158,4 +158,4 @@ Let's try this with a stream that is just counting up and logging.
   }
 ```
 
-When running this updated example, you can see that every time after (re-)starting the children, the stream is starting to count up from `0`.
+When running this updated example, you can see that every time after (re-)starting the children, the stream is starting to count up from zero.
