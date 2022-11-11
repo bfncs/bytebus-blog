@@ -71,7 +71,7 @@
         {% if config.extra.footer_links %}
         <nav style="margin-bottom:1rem;" role="navigation">
           {% for item in config.extra.footer_links %}
-            <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.name }}</a>
+            <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}" rel="{{ item.rel }}">{{ item.name }}</a>
             {% if loop.last %}{% else %}
               <span>&middot;</span>
             {% endif %}
