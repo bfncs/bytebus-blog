@@ -1,8 +1,8 @@
 # The URL the site will be built for
-base_url = "https://byteb.us"
+base_url = "https://marcloehe.de/"
 
 theme = "lightspeed"
-title = "bytebus"
+title = "Marc Löhe"
 description ="Notebook on code & software design"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -19,7 +19,7 @@ highlight_theme = "zenburn"
 author = "Marc Löhe"
 
 footer_links = [
-  {url = "https://twitter.com/bfncs", name = "Twitter"},
+  {url = "https://zirk.us/@bfncs", name = "Mastodon"},
   {url = "https://github.com/bfncs", name = "Github"},
 ]
 zola = false
