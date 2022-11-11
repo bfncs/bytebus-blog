@@ -19,8 +19,8 @@ highlight_theme = "zenburn"
 author = "Marc Löhe"
 
 footer_links = [
-  {url = "https://zirk.us/@bfncs", name = "Mastodon"},
-  {url = "https://github.com/bfncs", name = "Github"},
+  {url = "https://zirk.us/@bfncs", name = "Mastodon", rel="me"},
+  {url = "https://github.com/bfncs", name = "Github", rel="me"},
 ]
 zola = false
 maintained_with_love = false
